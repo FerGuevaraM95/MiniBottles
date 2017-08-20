@@ -248,15 +248,6 @@
 	"buffers":
 	[
 		{
-			"file": "src/MiniBottles/settings.py",
-			"settings":
-			{
-				"buffer_size": 3265,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
 			"file": "src/templates/base.html",
 			"settings":
 			{
@@ -266,19 +257,10 @@
 			}
 		},
 		{
-			"file": "src/posts/admin.py",
-			"settings":
-			{
-				"buffer_size": 178,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
 			"file": "src/posts/models.py",
 			"settings":
 			{
-				"buffer_size": 474,
+				"buffer_size": 464,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -305,7 +287,7 @@
 			"file": "src/posts/views.py",
 			"settings":
 			{
-				"buffer_size": 498,
+				"buffer_size": 770,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -314,7 +296,7 @@
 			"file": "src/templates/home.html",
 			"settings":
 			{
-				"buffer_size": 478,
+				"buffer_size": 584,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -369,6 +351,8 @@
 	],
 	"file_history":
 	[
+		"/C/Users/aleja/Desktop/MiniBottles/src/MiniBottles/settings.py",
+		"/C/Users/aleja/Desktop/MiniBottles/src/posts/admin.py",
 		"/C/Users/aleja/Desktop/MiniBottles/src/templates/navbar.html",
 		"/C/Users/aleja/Desktop/MiniBottles/src/templates/librerias.html",
 		"/C/Users/aleja/Desktop/Fer/sass/index.html",
@@ -377,7 +361,6 @@
 		"/C/Users/aleja/Desktop/Fer/sass/_variables.sass",
 		"/C/Users/aleja/Desktop/Fer/sass/main.sass",
 		"/C/Users/aleja/AppData/Roaming/Sublime Text 3/Packages/User/Sass.sublime-settings",
-		"/C/Users/aleja/Desktop/MiniBottles/src/MiniBottles/settings.py",
 		"/C/Users/aleja/AppData/Roaming/Sublime Text 3/Packages/User/Package Control.sublime-settings",
 		"/C/Users/aleja/Desktop/Fer/miblog/src/db.sqlite3",
 		"/C/Users/aleja/Desktop/Fer/miblog/src/miblog/urls.py",
@@ -549,42 +532,11 @@
 	"groups":
 	[
 		{
-			"selected": 7,
+			"selected": 4,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "src/MiniBottles/settings.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3265,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1699,
-								1699
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
-							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 661.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
 					"file": "src/templates/base.html",
 					"semi_transient": false,
 					"settings":
@@ -611,69 +563,40 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/posts/models.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 464,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								464,
+								464
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
 					"stack_index": 4,
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "src/posts/admin.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 178,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								176,
-								176
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
-							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "src/posts/models.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 474,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								239,
-								239
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
-							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
 					"file": "src/MiniBottles/urls.py",
 					"semi_transient": false,
 					"settings":
@@ -695,14 +618,14 @@
 							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 56.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 3,
 					"file": "src/posts/urls.py",
 					"semi_transient": false,
 					"settings":
@@ -727,24 +650,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 4,
 					"file": "src/posts/views.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 498,
+						"buffer_size": 770,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								295,
-								295
+								463,
+								463
 							]
 						],
 						"settings":
@@ -753,27 +676,27 @@
 							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 12.0,
+						"translation.y": 58.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 7,
+					"buffer": 5,
 					"file": "src/templates/home.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 478,
+						"buffer_size": 584,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								123,
-								123
+								145,
+								145
 							]
 						],
 						"settings":
@@ -784,7 +707,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 3,
 					"type": "text"
 				}
 			]
@@ -870,7 +793,7 @@
 	"show_minimap": true,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": true,
+	"side_bar_visible": false,
 	"side_bar_width": 205.0,
 	"status_bar_visible": true,
 	"template_settings":
