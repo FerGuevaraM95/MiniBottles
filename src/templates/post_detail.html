@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+
+{% block head_title %}{{ instance.title }} | {{ block.super }}{% endblock head_title %}
+
+{% block content %}
+	{% if instance.imagen %}
+	<img src='{{ instance.imagen.url }}' class='img-responsive' />
+	{% endif %}
+	<h1>{{ title }} <small>{{ instance.timestamp }}</small></h1><br>
+{% endblock %}
