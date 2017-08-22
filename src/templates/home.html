@@ -5,17 +5,41 @@
           	<p class="lead">
               <a href="#" class="btn btn-lg btn-secondary">Add Bottle</a>
             </p>
-            <h1 class="cover-heading">Pictures...{{ title }}</h1>
+            <h1 class="cover-heading">{{ title }}</h1>
             <p class="lead">
-            {% for obj in obj_list %}
-
-            {{ obj.title }}<br/>
-            {{ obj.description }}<br/>
-            {{ obj.timestamp }}<br/>
-            {{ obj.update }}<br/>
-            {{ obj.id }}<br/>
-
-            {% endfor %}
+            <div class="row">
+              <div class="col-sm-12">
+              {% for obj in obj_list %}
+                <div class="card bg-dark" style="width: 30rem;">
+                  {% if obj.image %}
+                  <img src='{{ obj.image.url }}' class='img-responsive' />
+                  {% endif %}
+                  <div class="card-body">
+                    <h4 class="card-title">{{ obj.title }}</h4>
+                    <p class="card-text">{{ obj.description }}</p>
+                  </div>
+                </div>
+              {% endfor %}  
+              </div>
+            </div>    
             </p>
+            <div class="pagination">
+                <span class="step-links">
+                    {% if obj_list.has_previous %}
+                        <a href="?{{ page_request_var }}={{ obj_list.previous_page_number }}">previous</a>
+                    {% endif %}
+
+                    <span class="current">
+                        Page {{ obj_list.number }} of {{ obj_list.paginator.num_pages }}.
+                    </span>
+
+                    {% if obj_list.has_next %}
+                        <a href="?{{ page_request_var }}={{ obj_list.next_page_number }}">next</a>
+                    {% endif %}
+                </span>
+            </div>
           </div>
 {% endblock %}
+
+
+
