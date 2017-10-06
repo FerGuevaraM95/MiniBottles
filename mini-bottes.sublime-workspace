@@ -4,266 +4,78 @@
 		"selected_items":
 		[
 			[
-				"upl",
-				"upload_location"
+				"queryset",
+				"queryset_list"
 			],
 			[
-				"wi",
-				"width_field"
+				"que",
+				"queryset_list"
 			],
 			[
-				"he",
-				"height_field"
+				"me",
+				"method\tAttr"
 			],
 			[
-				"T",
-				"True"
+				"if",
+				"if\tif"
 			],
 			[
-				"De",
-				"DEBUG"
+				"User",
+				"UserRegForm"
 			],
 			[
-				"wid",
-				"width"
+				"regi",
+				"register_view"
 			],
 			[
-				"qu",
-				"queryset"
-			],
-			[
-				"is_",
-				"is_superuser"
-			],
-			[
-				"requ",
-				"request"
-			],
-			[
-				"Post",
-				"PostManager"
-			],
-			[
-				"au",
-				"auto_now_add"
-			],
-			[
-				"se",
-				"settings"
-			],
-			[
-				"N",
-				"None"
-			],
-			[
-				"Static",
-				"STATIC_ROOT"
-			],
-			[
-				"HT",
-				"HttpResponseRedirect"
+				"logo",
+				"logout_view"
 			],
 			[
 				"re",
 				"request"
 			],
 			[
-				"ma",
-				"max_length"
-			],
-			[
-				"page",
-				"page-link"
-			],
-			[
-				"text",
-				"text-center"
-			],
-			[
-				"mar",
-				"margin-top"
-			],
-			[
-				"max",
-				"max-width"
-			],
-			[
-				"col",
-				"collapse"
-			],
-			[
-				"hidden",
-				"hidden-sm-up"
-			],
-			[
-				"list-group",
-				"list-group-item"
-			],
-			[
-				"na",
-				"navbar-toggleable"
-			],
-			[
-				"margin",
-				"margin-bottom"
-			],
-			[
-				"bor",
-				"border-color"
-			],
-			[
-				"list",
-				"list-group-item"
-			],
-			[
-				"padd",
-				"padding-left"
-			],
-			[
-				"co",
-				"content"
-			],
-			[
-				"border",
-				"border-top"
-			],
-			[
-				"pad",
-				"padding-left"
-			],
-			[
-				"nav-",
-				"navbar-toggler"
-			],
-			[
-				"form",
-				"form-text"
-			],
-			[
-				"text-",
-				"text-uppercase"
-			],
-			[
-				"hi",
-				"hidden-sm-down"
-			],
-			[
-				"of",
-				"offset-md-2"
-			],
-			[
-				"border-c",
-				"border-color"
-			],
-			[
-				"font-s",
-				"font-size"
-			],
-			[
-				"background-c",
-				"background-color"
-			],
-			[
-				"aut",
-				"auth_logout"
-			],
-			[
-				"st",
-				"style\tAttr"
-			],
-			[
-				"STATIC",
-				"STATIC_URL"
-			],
-			[
-				"email",
-				"email_from"
-			],
-			[
-				"com",
-				"com"
-			],
-			[
-				"EMA",
-				"EMAIL_HOST_PASSWORD"
-			],
-			[
-				"EMAIL_HOST",
-				"EMAIL_HOST_USER"
-			],
-			[
-				"lis",
-				"list_display"
-			],
-			[
-				"p",
-				"POST"
-			],
-			[
-				"d",
-				"django"
-			],
-			[
-				"__",
-				"__str__"
-			],
-			[
-				"pr",
-				"product_detail"
-			],
-			[
-				"STATI",
-				"staticfiles"
-			],
-			[
-				"H",
+				"Htt",
 				"HttpResponse"
-			],
-			[
-				"c",
-				"CharField"
-			],
-			[
-				"fun",
-				"function"
-			],
-			[
-				"t",
-				"task"
 			],
 			[
 				"de",
 				"default"
 			],
 			[
-				"fu",
-				"function"
+				"H",
+				"HttpResponseRedirect"
 			],
 			[
-				"te",
-				"text-align"
+				"html",
+				"html_string"
 			],
 			[
-				"font",
-				"font-size"
+				"count",
+				"count_words"
 			],
 			[
-				"in",
-				"input\tTag"
+				"initi",
+				"initial_data"
 			],
 			[
-				"ge",
-				"get_object_or_404"
+				"Comment",
+				"CommentForm"
+			],
+			[
+				"content",
+				"content_type"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "src/templates/home.html",
+			"file": "src/templates/navbar.html",
 			"settings":
 			{
-				"buffer_size": 1727,
+				"buffer_size": 1951,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -272,25 +84,7 @@
 			"file": "src/posts/views.py",
 			"settings":
 			{
-				"buffer_size": 2437,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "src/posts/models.py",
-			"settings":
-			{
-				"buffer_size": 922,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "src/templates/base.html",
-			"settings":
-			{
-				"buffer_size": 1796,
+				"buffer_size": 2736,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -303,27 +97,46 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 342.0,
-		"last_filter": "ins",
+		"height": 320.0,
+		"last_filter": "insta",
 		"selected_items":
 		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"",
+				"A File Icon: Environment"
+			],
 			[
 				"ins",
 				"Package Control: Install Package"
 			],
 			[
-				"insta",
-				"Package Control: Install Package"
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"ayu",
+				"ayu: Activate theme"
+			],
+			[
+				"materil",
+				"Material Theme: Advanced configuration"
 			]
 		],
-		"width": 414.0
+		"width": 472.0
 	},
 	"console":
 	{
-		"height": 126.0,
+		"height": 0.0,
 		"history":
 		[
-			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
 		]
 	},
 	"distraction_free":
@@ -339,146 +152,38 @@
 	[
 		"/C/Users/aleja/Desktop/MiniBottles",
 		"/C/Users/aleja/Desktop/MiniBottles/src",
-		"/C/Users/aleja/Desktop/MiniBottles/src/MiniBottles",
 		"/C/Users/aleja/Desktop/MiniBottles/src/posts",
-		"/C/Users/aleja/Desktop/MiniBottles/src/static",
-		"/C/Users/aleja/Desktop/MiniBottles/src/static/css",
 		"/C/Users/aleja/Desktop/MiniBottles/src/templates"
 	],
 	"file_history":
 	[
-		"/C/Users/aleja/Desktop/Fer/Bootstrap/MiniBottles/css/app.css",
-		"/C/Users/aleja/Desktop/MiniBottles/src/templates/navbar.html",
-		"/C/Users/aleja/Desktop/MiniBottles/src/static/css/index.css",
-		"/C/Users/aleja/Desktop/MiniBottles/src/templates/post_form.html",
-		"/C/Users/aleja/Desktop/MiniBottles/src/static/css/cover.css",
-		"/C/Users/aleja/Desktop/MiniBottles/src/posts/models.py",
-		"/C/Users/aleja/Desktop/MiniBottles/src/posts/views.py",
-		"/C/Users/aleja/Desktop/MiniBottles/src/templates/post_detail.html",
-		"/C/Users/aleja/Desktop/Fer/javascript_platzi/platzigram/public/app.css",
-		"/C/Users/aleja/Desktop/MiniBottles/src/posts/urls.py",
-		"/C/Users/aleja/Desktop/MiniBottles/src/templates/jumbotron.html",
-		"/C/Users/aleja/Desktop/MiniBottles/src/MiniBottles/settings.py",
-		"/C/Users/aleja/Desktop/MiniBottles/src/posts/forms.py",
-		"/C/Users/aleja/Desktop/MiniBottles/src/MiniBottles/urls.py",
+		"/C/Users/aleja/Desktop/MiniBottles/src/templates/home.html",
 		"/C/Users/aleja/Desktop/MiniBottles/src/templates/base.html",
-		"/C/Users/aleja/Desktop/MiniBottles/src/posts/admin.py",
-		"/C/Users/aleja/Desktop/MiniBottles/src/templates/librerias.html",
-		"/C/Users/aleja/Desktop/Fer/sass/index.html",
-		"/C/Users/aleja/Desktop/Fer/sass/main.css",
-		"/C/Users/aleja/Desktop/Fer/sass/_body.sass",
-		"/C/Users/aleja/Desktop/Fer/sass/_variables.sass",
-		"/C/Users/aleja/Desktop/Fer/sass/main.sass",
-		"/C/Users/aleja/AppData/Roaming/Sublime Text 3/Packages/User/Sass.sublime-settings",
-		"/C/Users/aleja/AppData/Roaming/Sublime Text 3/Packages/User/Package Control.sublime-settings",
-		"/C/Users/aleja/Desktop/Fer/miblog/src/db.sqlite3",
-		"/C/Users/aleja/Desktop/Fer/miblog/src/miblog/urls.py",
-		"/C/Users/aleja/Desktop/Fer/miblog/src/posts/urls.py",
-		"/C/Users/aleja/Desktop/Fer/miblog/src/posts/tests.py",
-		"/C/Users/aleja/Desktop/Fer/miblog/src/posts/views.py",
-		"/C/Users/aleja/Desktop/Fer/miblog/src/templates/post_list.html",
-		"/C/Users/aleja/Desktop/Fer/miblog/src/templates/base.html",
-		"/C/Users/aleja/Desktop/Fer/miblog/src/posts/forms.py",
-		"/C/Users/aleja/Desktop/Fer/miblog/src/posts/models.py",
-		"/C/Users/aleja/Desktop/Fer/miblog/src/templates/post_detail.html",
-		"/C/Users/aleja/Desktop/Fer/miblog/src/posts/templatetags/urlify.py",
-		"/C/Users/aleja/Desktop/Fer/miblog/src/posts/templatetags/__init__.py",
-		"/C/Users/aleja/Desktop/Fer/miblog/src/templates/post_form.html",
 		"/C/Users/aleja/Desktop/Fer/miblog/src/miblog/settings.py",
-		"/C/Users/aleja/Desktop/Fer/miblog/src/static/base.css",
-		"/C/Users/aleja/Desktop/Fer/miblog/src/templates/messages_display.html",
-		"/C/Users/aleja/Desktop/Fer/miblog/src/templates/index.html",
-		"/C/Users/aleja/Desktop/Fer/miblog/src/posts/admin.py",
-		"/C/Users/aleja/Desktop/Fer/Bootstrap/MiniBottles/js/app.js",
-		"/C/Users/aleja/Desktop/Fer/Bootstrap/MiniBottles/catalogo.html",
-		"/C/Users/aleja/Desktop/Fer/Bootstrap/MiniBottles/index.html",
-		"/C/Users/aleja/Desktop/Fer/Cursos/Curso de Frontend con Bootstrap y Foundation/3- Bootstrap/35- archivos/platzishop-caaa5675d0a6860748cc8b07fe738d60b199ef5e/js/app.js",
-		"/C/Users/aleja/Desktop/Fer/Cursos/Curso de Frontend con Bootstrap y Foundation/3- Bootstrap/32- archivos/platzishop-37d90b46516d13f1a737f7ea4c1ab3bffc31d487/js/app.js",
-		"/C/Users/aleja/Desktop/Fer/Bootstrap/platzishop/index.html",
-		"/C/Users/aleja/Desktop/Fer/new/src/boletin/views.py",
-		"/C/Users/aleja/Desktop/Fer/new/src/boletin/forms.py",
-		"/C/Users/aleja/Desktop/Fer/new/src/boletin/models.py",
-		"/C/Users/aleja/Desktop/Fer/new/src/boletin/admin.py",
-		"/C/Users/aleja/Desktop/Fer/new/src/proyecto_nuevo/views.py",
-		"/C/Users/aleja/Desktop/Fer/new/proyecto_nuevo.sublime-project",
-		"/C/Users/aleja/Desktop/Fer/Class-Based-Views/CRUD.txt",
-		"/C/Users/aleja/Desktop/Fer/new/src/templates/inicio.html",
-		"/C/Users/aleja/Desktop/Fer/new/src/templates/about.html",
-		"/C/Users/aleja/Desktop/Fer/new/src/templates/navbar.html",
-		"/C/Users/aleja/Desktop/Fer/new/src/static_pro/static/css/navbar-static-top.css",
-		"/C/Users/aleja/Desktop/Fer/new/src/templates/head_css.html",
-		"/C/Users/aleja/Desktop/Fer/new/src/templates/base.html",
-		"/C/Users/aleja/Desktop/Fer/new/static_env/static_root/css/navbar-static-top.css",
-		"/C/Users/aleja/Desktop/Fer/new/src/templates/forms.html",
-		"/C/Users/aleja/Desktop/Fer/new/src/templates/javascript.html",
-		"/C/Users/aleja/Desktop/Fer/new/src/proyecto_nuevo/settings.py",
-		"/C/Users/aleja/Desktop/Fer/new/src/templates/registration/activation_email.txt",
-		"/C/Users/aleja/Desktop/Fer/new/src/templates/registration/activation_complete.html",
-		"/C/Users/aleja/Desktop/Fer/new/src/static_pro/static/css/custom.css",
-		"/C/Users/aleja/Desktop/Fer/new/src/templates/registration/registration_form.html",
-		"/C/Users/aleja/Desktop/Fer/new/src/proyecto_nuevo/urls.py",
-		"/C/Users/aleja/Desktop/Fer/new/src/templates/registration/registration_complete.html",
-		"/C/Users/aleja/Desktop/Fer/new/src/templates/registration/registration_closed.html",
-		"/C/Users/aleja/Desktop/Fer/new/src/templates/registration/password_reset_form.html",
-		"/C/Users/aleja/Desktop/Fer/new/src/templates/registration/password_reset_email.html",
-		"/C/Users/aleja/Desktop/Fer/new/src/templates/registration/password_reset_done.html",
-		"/C/Users/aleja/Desktop/Fer/new/src/templates/registration/password_reset_confirm.html",
-		"/C/Users/aleja/Desktop/Fer/new/src/templates/registration/password_reset_complete.html",
-		"/C/Users/aleja/Desktop/Fer/new/src/templates/registration/password_change_form.html",
-		"/C/Users/aleja/Desktop/Fer/new/src/templates/registration/password_change_done.html",
-		"/C/Users/aleja/Desktop/Fer/new/src/templates/registration/logout.html",
-		"/C/Users/aleja/Desktop/Fer/new/src/templates/registration/login.html",
-		"/C/Users/aleja/Desktop/Fer/new/src/templates/registration/activation_email_subject.txt",
-		"/C/Users/aleja/Desktop/Fer/new/src/templates/registration/activate.html",
-		"/C/Users/aleja/Desktop/Fer/django_platzi/puls5/shopy/Shoppy/templates/index.html",
-		"/C/Users/aleja/AppData/Roaming/Sublime Text 3/Packages/User/HTML (Django).sublime-settings",
-		"/C/Users/aleja/AppData/Roaming/Sublime Text 3/Packages/Djaneiro/Settings/HTML (Django).sublime-settings",
-		"/C/Users/aleja/Desktop/Fer/python_platzi/carta.py",
-		"/C/Users/aleja/Desktop/Fer/django_platzi/puls5/shopy/Shoppy/Shoppy/carta.py",
-		"/C/Users/aleja/Desktop/Fer/django_platzi/puls5/shopy/Shoppy/Shoppy/settings.py",
-		"/C/Users/aleja/Desktop/Fer/django_platzi/loginDjango/loginDjango/templates/login.html",
-		"/C/Users/aleja/Desktop/Fer/django_platzi/loginDjango/loginDjango/templates/hello.html",
-		"/C/Users/aleja/Desktop/Fer/django_platzi/loginDjango/loginDjango/templates/base.html",
-		"/C/Users/aleja/Desktop/Fer/django_platzi/loginDjango/loginDjango/loginDjango/urls.py",
-		"/C/Users/aleja/Desktop/Fer/django_platzi/loginDjango/loginDjango/userprofiles/views.py",
-		"/C/Users/aleja/Desktop/Fer/django_platzi/loginDjango/loginDjango/userprofiles/urls.py",
-		"/C/Users/aleja/Desktop/Fer/django_platzi/loginDjango/loginDjango/loginDjango/settings.py",
-		"/C/Users/aleja/Desktop/Fer/django_platzi/loginDjango/loginDjango/userprofiles/base.html",
-		"/C/Users/aleja/Desktop/Fer/django_platzi/puls5/shopy/Shoppy/clients/admin.py",
-		"/C/Users/aleja/Desktop/Fer/django_platzi/puls5/shopy/Shoppy/products/views.py",
-		"/C/Users/aleja/Desktop/Fer/django_platzi/puls5/shopy/Shoppy/clients/models.py",
-		"/C/Users/aleja/Desktop/Fer/django_platzi/puls5/shopy/Shoppy/products/admin.py",
-		"/C/Users/aleja/Desktop/Fer/django_platzi/puls5/shopy/Shoppy/products/models.py",
-		"/C/Users/aleja/Desktop/Fer/django_platzi/puls5/shopy/Shoppy/templates/new_product.html",
-		"/C/Users/aleja/Desktop/Fer/django_platzi/puls5/shopy/Shoppy/products/forms.py",
-		"/C/Users/aleja/Desktop/Fer/django_platzi/puls5/shopy/Shoppy/Shoppy/urls.py",
-		"/C/Users/aleja/Desktop/Fer/django_platzi/puls5/shopy/Shoppy/products/urls.py",
-		"/C/Users/aleja/Desktop/Fer/django_platzi/puls5/shopy/Shoppy/templates/product_detail.html",
-		"/C/Users/aleja/Desktop/Fer/django_platzi/puls5/shopy/Shoppy/static/css/base.css",
-		"/C/Users/aleja/Desktop/Fer/django_platzi/puls5/shopy/Shoppy/Shoppy/static/css/base.css",
-		"/C/Users/aleja/Desktop/Fer/django_platzi/puls5/Shoppy/Shoppy/settings.py",
-		"/C/Users/aleja/Desktop/Fer/django_platzi/puls5/Shoppy/products/models.py",
-		"/C/Users/aleja/Desktop/Fer/django_platzi/puls5/Shoppy/products/admin.py",
-		"/C/Users/aleja/Desktop/Fer/javascript_platzi/platzigram/views/index.pug",
-		"/C/Users/aleja/Desktop/Fer/javascript_platzi/platzigram/public/app.js",
-		"/C/Users/aleja/Desktop/Fer/javascript_platzi/platzigram/server.js",
-		"/C/Users/aleja/Desktop/Fer/javascript_platzi/platzigram/src/index.js",
-		"/C/Users/aleja/Desktop/Fer/javascript_platzi/platzigram/package.json",
-		"/C/Users/aleja/Desktop/Fer/javascript_platzi/platzigram/Gulpfile.js",
-		"/C/Users/aleja/Downloads/platzigram-12/platzigram/Gulpfile.js",
-		"/C/Users/aleja/Downloads/platzigram-12/platzigram/package.json",
-		"/C/Users/aleja/Downloads/platzigram-11/platzigram/Gulpfile.js",
-		"/C/Users/aleja/Downloads/platzigram-10/platzigram/Gulpfile.js",
-		"/C/Users/aleja/Desktop/Fer/javascript_platzi/platzigram/index.scss",
-		"/C/Users/aleja/Desktop/Fer/javascript_platzi/platzigram/index.html",
-		"/C/Users/aleja/Desktop/Fer/python_platzi/hanoi.py",
-		"/C/Users/aleja/Desktop/Fer/django_platzi/puls5/Shoppy/Shoppy/products/views.py",
-		"/C/Users/aleja/Desktop/Fer/django_platzi/puls5/Shoppy/Shoppy/products/urls.py",
-		"/C/Users/aleja/Desktop/Fer/django_platzi/puls5/Shoppy/Shoppy/templates/index.html"
+		"/C/Users/aleja/Desktop/Fer/miblog/src/templates/comment_hilo.html",
+		"/C/Users/aleja/Desktop/Fer/miblog/src/comments/views.py",
+		"/C/Users/aleja/Desktop/Fer/miblog/src/templates/post_detail.html",
+		"/C/Users/aleja/Desktop/Fer/miblog/src/posts/views.py",
+		"/C/Users/aleja/Desktop/Fer/miblog/src/cuentas/views.py",
+		"/C/Users/aleja/Desktop/Fer/miblog/src/templates/form.html",
+		"/C/Users/aleja/Desktop/Fer/miblog/src/cuentas/forms.py",
+		"/C/Users/aleja/Desktop/Fer/miblog/src/miblog/urls.py",
+		"/C/Users/aleja/Desktop/Fer/miblog/src/templates/post_form.html",
+		"/C/Users/aleja/Desktop/Fer/miblog/src/comments/urls.py",
+		"/C/Users/aleja/Desktop/Fer/miblog/src/comments/models.py",
+		"/C/Users/aleja/Desktop/Fer/miblog/src/templates/confirm_delete.html",
+		"/C/Users/aleja/Desktop/Fer/miblog/src/posts/utils.py",
+		"/C/Users/aleja/Desktop/Fer/miblog/src/posts/models.py",
+		"/C/Users/aleja/Desktop/Fer/miblog/src/comments/forms.py",
+		"/C/Users/aleja/Desktop/Fer/miblog/src/templates/base.html",
+		"/C/Users/aleja/Desktop/Fer/miblog/src/posts/urls.py",
+		"/C/Users/aleja/Desktop/MiniBottles/src/posts/models.py",
+		"/C/Users/aleja/Desktop/MiniBottles/src/posts/forms.py",
+		"/C/Users/aleja/Desktop/MiniBottles/src/static/css/index.scss"
 	],
 	"find":
 	{
-		"height": 22.0
+		"height": 25.0
 	},
 	"find_in_files":
 	{
@@ -492,30 +197,6 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			" color",
-			"FFDC00",
-			" color",
-			".",
-			"; }",
-			"{ ",
-			"39CCCC",
-			".teal { color: #39CCCC; }\n",
-			"39CCCC",
-			"\n.",
-			".",
-			"bg",
-			".",
-			".bg-teal { background-color: #39CCCC; }\n",
-			".",
-			"contacts",
-			"carouselExampleIndicators",
-			" \n",
-			"carouselExampleIndicators",
-			"> ",
-			"<p>",
-			"bottles-1.jpg",
-			"carouselExampleIndicator",
-			"productosCarousel"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -523,10 +204,8 @@
 		"regex": false,
 		"replace_history":
 		[
-			"object_list",
-			"productosCarousel"
 		],
-		"reverse": false,
+		"reverse": true,
 		"show_context": true,
 		"use_buffer2": true,
 		"whole_word": false,
@@ -540,30 +219,29 @@
 			[
 				{
 					"buffer": 0,
-					"file": "src/templates/home.html",
+					"file": "src/templates/navbar.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1727,
+						"buffer_size": 1951,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								112,
-								112
+								1734,
+								1734
 							]
 						],
 						"settings":
 						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
 							"syntax": "Packages/Djaneiro/Syntaxes/HTML (Django).tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 433.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -575,89 +253,27 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2437,
+						"buffer_size": 2736,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1151,
-								1151
+								1255,
+								1255
 							]
 						],
 						"settings":
 						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
 							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 305.0,
+						"translation.y": 489.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "src/posts/models.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 922,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								356,
-								356
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
-							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "src/templates/base.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1796,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								534,
-								534
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
-							"syntax": "Packages/Djaneiro/Syntaxes/HTML (Django).tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
 					"type": "text"
 				}
 			]
@@ -665,11 +281,11 @@
 	],
 	"incremental_find":
 	{
-		"height": 34.0
+		"height": 25.0
 	},
 	"input":
 	{
-		"height": 31.0
+		"height": 47.0
 	},
 	"layout":
 	{
@@ -694,10 +310,6 @@
 		]
 	},
 	"menu_visible": true,
-	"output.exec":
-	{
-		"height": 76.0
-	},
 	"output.find_results":
 	{
 		"height": 0.0
@@ -706,7 +318,7 @@
 	"project": "mini-bottes.sublime-project",
 	"replace":
 	{
-		"height": 40.0
+		"height": 46.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -744,7 +356,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 205.0,
+	"side_bar_width": 193.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

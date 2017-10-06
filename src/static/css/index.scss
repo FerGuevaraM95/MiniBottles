@@ -1,0 +1,96 @@
+$color-primary: #732937;
+$color-secondary: #A63856;
+$color-card: #424659;
+$color-background: #222A38;
+$color-tertiary: #00001E;
+$color-letter: #fff;
+html {
+  height: 100%;
+  background-color: #333;
+}
+body {
+  height: 100%;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 0.05rem 0.1rem rgba(0, 0, 0, 0.5);
+  min-height: 75rem;
+  padding-top: 4.5rem;
+}
+a {
+  color: #fff;
+  &:focus, &:hover {
+    color: #fff;
+  }
+}
+#logo {
+  font-family: 'Oleo Script', cursive;
+  color: $color-primary;
+}
+.masthead {
+  margin-bottom: 2rem;
+}
+.masthead-brand {
+  margin-bottom: 0;
+}
+.nav-masthead {
+  .nav-link {
+    padding: .25rem 0;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.5);
+    background-color: transparent;
+    border-bottom: .25rem solid transparent;
+    &:hover, &:focus {
+      border-bottom-color: rgba(255, 255, 255, 0.25);
+    }
+    + .nav-link {
+      margin-left: 1rem;
+    }
+  }
+  .active {
+    color: #fff;
+    border-bottom-color: #fff;
+  }
+}
+@media (min-width: 48em) {
+  .masthead-brand {
+    float: left;
+  }
+  .nav-masthead {
+    float: right;
+  }
+}
+.btn-secondary {
+  color: #333;
+  text-shadow: none;
+  background-color: #fff;
+  border: .05rem solid #fff;
+  &:hover, &:focus {
+    color: #333;
+    text-shadow: none;
+    background-color: #fff;
+    border: .05rem solid #fff;
+  }
+}
+.btn-outline-success {
+  color: $color-primary;
+  border-color: $color-primary;
+}
+.btn-outline-success:hover {
+  background-color: $color-primary;
+  border-color: $color-primary;
+}
+.inner {
+  padding: 2rem;
+}
+.btn-lg {
+  padding: .75rem 1.25rem;
+  font-weight: bold;
+}
+.mastfoot {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.text {
+  font-family: 'Montserrat', sans-serif;
+}

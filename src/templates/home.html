@@ -2,46 +2,52 @@
 
 {% block content %}
 <div class="container">
-  <div class="row">
-    <div class="col-2">
-    </div>
-    <div class="col-8">
+  <div class="row justify-content-center">
+    <div class="col-7">
       <p>
         <a href="#" class="btn btn-lg btn-secondary">Add Bottle</a>
       </p>
-      <h1 class="cover-heading">{{ title }}</h1>
+      <!-- <h1 class="cover-heading">{{ title }}</h1> -->
+      <!--===========================
+      =            Cards            =
+      ============================-->
       {% for obj in obj_list %}
       <div class="card bg-dark">
         <div class="card-header">
           Usuario
         </div>
         {% if obj.image %}
-        <img src='{{ obj.image.url }}' class='img-responsive' />
+        <img class='img-fluid' src='{{ obj.image.url }}' />
         {% endif %}
         <div class="card-body">
           <h4 class="card-title">{{ obj.title }}</h4>
           <p class="card-text">{{ obj.description }}</p>
+          <a href="{{ obj.get_absolute_url }}" class="btn btn-secondary">Ver</a>
         </div>
       </div>
       {% endfor %}
-      <!-- Pagination --> 
+      <!--====  End of Cards  ====-->
+      
+      <!--================================
+      =            Pagination            =
+      =================================-->
       <div class="pagination">
         <span class="step-links">
           {% if obj_list.has_previous %}
-            <a href="?{{ page_request_var }}={{ obj_list.previous_page_number }}">previous</a>
+            <a href="?{{ page_request_var }}={{ obj_list.previous_page_number }}{% if request.GET.q%}&q={{ request.GET.q }}{% endif %}">previous</a>
           {% endif %}
           <span class="current">
             Page {{ obj_list.number }} of {{ obj_list.paginator.num_pages }}.
           </span>
           {% if obj_list.has_next %}
-            <a href="?{{ page_request_var }}={{ obj_list.next_page_number }}">next</a>
+            <a href="?{{ page_request_var }}={{ obj_list.next_page_number }}{% if request.GET.q%}&q={{ request.GET.q }}{% endif %}">next</a>
           {% endif %}
         </span>
       </div>
-      <!-- Pagination -->
-    </div>
-    <div class="col-2">
+      <!--====  End of Pagination  ====-->
+
     </div>
   </div>
-</div>
+</div>      
 {% endblock %}
+
