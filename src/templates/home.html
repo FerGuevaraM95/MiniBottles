@@ -12,9 +12,13 @@
       =            Cards            =
       ============================-->
       {% for obj in obj_list %}
-      <div class="card bg-dark">
+      <div class="card bg-dark card-left">
         <div class="card-header">
-          Usuario
+          {% if obj.user.get_full_name %}
+            <p>User: {{ obj.user.get_full_name }}</p>
+        {% else %}
+            <p class="mb-0">User: {{ obj.user }}</p>
+        {% endif %}
         </div>
         {% if obj.image %}
         <img class='img-fluid' src='{{ obj.image.url }}' />
