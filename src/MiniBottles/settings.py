@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/1.11/ref/settings/
 """
 
 import os
+from django.core.urlresolvers import reverse_lazy
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -41,6 +42,7 @@ INSTALLED_APPS = [
     'crispy_forms',
     # my apps
     'posts',
+    'users',
 ]
 
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
@@ -134,3 +136,15 @@ STATIC_ROOT = os.path.join(os.path.dirname(BASE_DIR), "static_cdn")
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(os.path.dirname(BASE_DIR), "media_cdn")
+
+
+LOGIN_REDIRECT_URL = reverse_lazy('posts:home')
+LOGOUT_REDIRECT_URL = reverse_lazy('login')
+
+
+EMAIL_USE_TLS = True
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_PORT = 25
+EMAIL_HOST_USER = 'luisfernandoguevara95@gmail.com'
+EMAIL_HOST_PASSWORD = 'guevara4815162342'
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
