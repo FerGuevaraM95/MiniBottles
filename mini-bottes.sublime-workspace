@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"logo",
+				"logout_then_login"
+			],
+			[
+				"pass",
+				"password_reset_done"
+			],
+			[
+				"block",
+				"block\tblock"
+			],
+			[
 				"email_",
 				"EMAIL_BACKEND"
 			],
@@ -18,10 +30,6 @@
 			[
 				"LOG",
 				"LOGIN_REDIRECT_URL"
-			],
-			[
-				"block",
-				"block\tDjango template block"
 			],
 			[
 				"User",
@@ -58,10 +66,6 @@
 			[
 				"regi",
 				"register_view"
-			],
-			[
-				"logo",
-				"logout_view"
 			],
 			[
 				"re",
@@ -104,28 +108,27 @@
 	"buffers":
 	[
 		{
-			"file": "src/users/urls.py",
-			"settings":
-			{
-				"buffer_size": 150,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
 			"file": "src/templates/base.html",
 			"settings":
 			{
-				"buffer_size": 4048,
+				"buffer_size": 5147,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "src/templates/registration/password_reset_form.html",
+			"file": "src/static/css/index.css",
 			"settings":
 			{
-				"buffer_size": 365,
+				"buffer_size": 2393,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/templates/index.html",
+			"settings":
+			{
+				"buffer_size": 1003,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -134,7 +137,8 @@
 			"file": "src/templates/users/register.html",
 			"settings":
 			{
-				"buffer_size": 1855,
+				"buffer_size": 1893,
+				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		}
@@ -216,8 +220,16 @@
 	],
 	"file_history":
 	[
-		"/C/Users/aleja/Desktop/MiniBottles/src/MiniBottles/settings.py",
 		"/C/Users/aleja/Desktop/MiniBottles/src/MiniBottles/urls.py",
+		"/C/Users/aleja/Desktop/MiniBottles/src/posts/urls.py",
+		"/C/Users/aleja/Desktop/MiniBottles/src/templates/registration/password_reset_complete.html",
+		"/C/Users/aleja/Desktop/MiniBottles/src/templates/registration/password_reset_confirm.html",
+		"/C/Users/aleja/Desktop/MiniBottles/src/MiniBottles/settings.py",
+		"/C/Users/aleja/Desktop/MiniBottles/src/templates/base.html",
+		"/C/Users/aleja/Desktop/MiniBottles/src/users/urls.py",
+		"/C/Users/aleja/Desktop/MiniBottles/src/templates/registration/password_reset_done.html",
+		"/C/Users/aleja/Desktop/MiniBottles/src/templates/registration/password_reset_email.html",
+		"/C/Users/aleja/Desktop/MiniBottles/src/templates/registration/password_reset_form.html",
 		"/C/Users/aleja/Desktop/MiniBottles/src/users/views.py",
 		"/C/Users/aleja/Desktop/MiniBottles/src/templates/index.html",
 		"/C/Users/aleja/Desktop/MiniBottles/src/users/forms.py",
@@ -226,8 +238,6 @@
 		"/C/Users/aleja/Desktop/MiniBottles/src/static/css/index.css",
 		"/C/Users/aleja/Desktop/MiniBottles/src/users/index.html",
 		"/C/Users/aleja/Desktop/MiniBottles/src/templates/home.html",
-		"/C/Users/aleja/Desktop/MiniBottles/src/posts/urls.py",
-		"/C/Users/aleja/Desktop/MiniBottles/src/templates/base.html",
 		"/C/Users/aleja/Desktop/MiniBottles/src/posts/views.py",
 		"/C/Users/aleja/Desktop/MiniBottles/src/templates/post_form.html",
 		"/C/Users/aleja/Desktop/MiniBottles/src/posts/models.py",
@@ -255,7 +265,7 @@
 	],
 	"find":
 	{
-		"height": 25.0
+		"height": 28.0
 	},
 	"find_in_files":
 	{
@@ -286,52 +296,84 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "src/users/urls.py",
+					"file": "src/templates/base.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 150,
+						"buffer_size": 5147,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								70,
-								70
+								1839,
+								1839
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage"
+							"syntax": "Packages/Djaneiro/Syntaxes/HTML (Django).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 327.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/static/css/index.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2393,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Djaneiro/Syntaxes/CSS (Django).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "src/templates/base.html",
+					"buffer": 2,
+					"file": "src/templates/index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4048,
+						"buffer_size": 1003,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1900,
-								1900
+								852,
+								852
 							]
 						],
 						"settings":
@@ -348,48 +390,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "src/templates/registration/password_reset_form.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 365,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								169,
-								169
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Djaneiro/Syntaxes/HTML (Django).tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
 					"buffer": 3,
 					"file": "src/templates/users/register.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1855,
+						"buffer_size": 1893,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								283,
-								152
+								1784,
+								1784
 							]
 						],
 						"settings":
@@ -402,7 +416,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 3,
 					"type": "text"
 				}
 			]
@@ -410,7 +424,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 25.0
+		"height": 28.0
 	},
 	"input":
 	{
@@ -447,7 +461,7 @@
 	"project": "mini-bottes.sublime-project",
 	"replace":
 	{
-		"height": 46.0
+		"height": 52.0
 	},
 	"save_all_on_build": true,
 	"select_file":

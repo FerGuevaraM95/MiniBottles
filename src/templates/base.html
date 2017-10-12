@@ -8,7 +8,9 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="icon" href="https://getbootstrap.com/favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Oleo+Script" rel="stylesheet">
+    <link href="{% static 'css/fontello.css' %}" rel="stylesheet">
 
     <title>{% block head_title %}MiniBottles{% endblock head_title %}</title>
 
@@ -16,13 +18,41 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
     <!-- Custom styles for this template -->
     <link href="{% static 'css/index.css' %}" rel="stylesheet">
-    <!-- Fontawesome -->
-    <script src="https://use.fontawesome.com/3e827534fd.js"></script>
   </head>
   <body>
     <!--============================
     =            Navbar            =
     =============================-->
+    <header>
+      <div class="container">
+        <div class="raw">
+          <div class="col logo">
+            <a href="">
+              <img src="{% static 'images/logo.png' %}" alt="">
+            </a>
+          </div>
+          <div class="col  search">
+            <form action="">
+              <div class="row no-gutters align-itemscenter">
+                <div class="col-10 column">
+                  <input type="text" name="" id="" placeholder="Shearch">
+                </div>
+                <div class="col-2-column">
+                  <button><i class="icon-search"></i></button>
+                </div>
+              </div>
+            </form>
+          </div>
+          <nav class="col col-lg-2 menu">
+            <a href=""><i class="icon-users"></i></a>
+            <a href=""><i class="icon-bell-alt"></i></a>
+            <a href=""><i class="icon-chat"></i></a>
+            <a href=""><i class="{% static 'images/user.png' %}"></i></a>
+          </nav>
+        </div>
+      </div>
+    </header>
+
     {% block navbar %}
     <div class="container">
       <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">

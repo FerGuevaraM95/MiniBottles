@@ -17,9 +17,9 @@
         <input type="text" class="form-control" placeholder="Username" name="username" required autofocus>
         <label for="password" class="sr-only">Password</label>
         <input type="password" class="form-control" placeholder="Password" name="password" required>
-        <a href="{% url 'password_reset' %}">Forgot your password?</a>
-        <a href="{% url 'user:register' %}">Register</a>
-        <button class="btn btn-lg btn-secondary" type="submit">Sign in</button>
+        <a class="text-left" href="{% url 'password_reset' %}">Forgot your password?</a>
+        <a class="text-right" href="{% url 'user:register' %}">Register</a><br><br>
+        <button class="btn btn-lg btn-secondary btn-block" type="submit">Sign in</button>
       </form>
     </div>
   </div>
