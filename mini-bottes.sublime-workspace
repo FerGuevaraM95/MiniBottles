@@ -4,6 +4,30 @@
 		"selected_items":
 		[
 			[
+				"but",
+				"buttons-box"
+			],
+			[
+				"no",
+				"no-gutters"
+			],
+			[
+				"al",
+				"align-items-center"
+			],
+			[
+				"justify",
+				"justify-content-between"
+			],
+			[
+				"justif",
+				"justify-content-start"
+			],
+			[
+				"pa",
+				"padding-right"
+			],
+			[
 				"logo",
 				"logout_then_login"
 			],
@@ -111,7 +135,25 @@
 			"file": "src/templates/base.html",
 			"settings":
 			{
-				"buffer_size": 5147,
+				"buffer_size": 4686,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/templates/home.html",
+			"settings":
+			{
+				"buffer_size": 5086,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/aleja/Desktop/Fer/Cursos/Bootstrap.4.El.Curso.Completo.Practico.Desde.Cero/01 Introducción/attached_files/005 Descarga de recursos de todo el curso/Bootstrap/practicas/red_social/index.html",
+			"settings":
+			{
+				"buffer_size": 8576,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -120,7 +162,16 @@
 			"file": "src/static/css/index.css",
 			"settings":
 			{
-				"buffer_size": 2393,
+				"buffer_size": 5333,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/aleja/Desktop/Fer/Cursos/Bootstrap.4.El.Curso.Completo.Practico.Desde.Cero/01 Introducción/attached_files/005 Descarga de recursos de todo el curso/Bootstrap/practicas/red_social/css/estilos.css",
+			"settings":
+			{
+				"buffer_size": 7132,
 				"line_ending": "Windows"
 			}
 		},
@@ -129,15 +180,6 @@
 			"settings":
 			{
 				"buffer_size": 1003,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "src/templates/users/register.html",
-			"settings":
-			{
-				"buffer_size": 1893,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -211,8 +253,6 @@
 		"/C/Users/aleja/Desktop/MiniBottles/src",
 		"/C/Users/aleja/Desktop/MiniBottles/src/MiniBottles",
 		"/C/Users/aleja/Desktop/MiniBottles/src/posts",
-		"/C/Users/aleja/Desktop/MiniBottles/src/static",
-		"/C/Users/aleja/Desktop/MiniBottles/src/static/css",
 		"/C/Users/aleja/Desktop/MiniBottles/src/templates",
 		"/C/Users/aleja/Desktop/MiniBottles/src/templates/registration",
 		"/C/Users/aleja/Desktop/MiniBottles/src/templates/users",
@@ -220,6 +260,14 @@
 	],
 	"file_history":
 	[
+		"/C/Users/aleja/Desktop/MiniBottles/src/static/css/fontello-codes.css",
+		"/C/Users/aleja/Desktop/MiniBottles/src/templates/users/register.html",
+		"/C/Users/aleja/Desktop/MiniBottles/src/posts/forms.py",
+		"/C/Users/aleja/Desktop/MiniBottles/src/posts/models.py",
+		"/C/Users/aleja/Desktop/MiniBottles/src/static/css/fontello-ie7-codes.css",
+		"/C/Users/aleja/Desktop/MiniBottles/src/static/css/fontello.css",
+		"/C/Users/aleja/Desktop/MiniBottles/src/posts/tests.py",
+		"/C/Users/aleja/Desktop/Fer/fontello-5af69be4/config.json",
 		"/C/Users/aleja/Desktop/MiniBottles/src/MiniBottles/urls.py",
 		"/C/Users/aleja/Desktop/MiniBottles/src/posts/urls.py",
 		"/C/Users/aleja/Desktop/MiniBottles/src/templates/registration/password_reset_complete.html",
@@ -234,13 +282,11 @@
 		"/C/Users/aleja/Desktop/MiniBottles/src/templates/index.html",
 		"/C/Users/aleja/Desktop/MiniBottles/src/users/forms.py",
 		"/C/Users/aleja/Desktop/MiniBottles/src/templates/navbar.html",
-		"/C/Users/aleja/Desktop/MiniBottles/src/templates/users/register.html",
 		"/C/Users/aleja/Desktop/MiniBottles/src/static/css/index.css",
 		"/C/Users/aleja/Desktop/MiniBottles/src/users/index.html",
 		"/C/Users/aleja/Desktop/MiniBottles/src/templates/home.html",
 		"/C/Users/aleja/Desktop/MiniBottles/src/posts/views.py",
 		"/C/Users/aleja/Desktop/MiniBottles/src/templates/post_form.html",
-		"/C/Users/aleja/Desktop/MiniBottles/src/posts/models.py",
 		"/C/Users/aleja/Desktop/MiniBottles/src/posts/admin.py",
 		"/C/Users/aleja/Desktop/MiniBottles/src/static/css/index.scss",
 		"/C/Users/aleja/Desktop/Fer/miblog/src/miblog/settings.py",
@@ -260,12 +306,11 @@
 		"/C/Users/aleja/Desktop/Fer/miblog/src/posts/models.py",
 		"/C/Users/aleja/Desktop/Fer/miblog/src/comments/forms.py",
 		"/C/Users/aleja/Desktop/Fer/miblog/src/templates/base.html",
-		"/C/Users/aleja/Desktop/Fer/miblog/src/posts/urls.py",
-		"/C/Users/aleja/Desktop/MiniBottles/src/posts/forms.py"
+		"/C/Users/aleja/Desktop/Fer/miblog/src/posts/urls.py"
 	],
 	"find":
 	{
-		"height": 28.0
+		"height": 54.0
 	},
 	"find_in_files":
 	{
@@ -279,6 +324,25 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"imagen",
+			"comentario",
+			"caja-botones",
+			"texto",
+			"nombre",
+			"foto",
+			"publicacion",
+			"foto",
+			"contenedor-botones",
+			"foto",
+			"publicar",
+			"contenido-principal",
+			"contenido",
+			"content",
+			"20px",
+			"bottom",
+			"}\n",
+			"publish",
+			"SIDEBAR"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -287,7 +351,7 @@
 		"replace_history":
 		[
 		],
-		"reverse": true,
+		"reverse": false,
 		"show_context": true,
 		"use_buffer2": true,
 		"whole_word": false,
@@ -296,7 +360,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 5,
 			"sheets":
 			[
 				{
@@ -305,75 +369,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5147,
+						"buffer_size": 4686,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1839,
-								1839
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Djaneiro/Syntaxes/HTML (Django).tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 327.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "src/static/css/index.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2393,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Djaneiro/Syntaxes/CSS (Django).tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "src/templates/index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1003,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								852,
-								852
+								38,
+								16
 							]
 						],
 						"settings":
@@ -390,20 +394,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "src/templates/users/register.html",
+					"buffer": 1,
+					"file": "src/templates/home.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1893,
+						"buffer_size": 5086,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1784,
-								1784
+								70,
+								70
 							]
 						],
 						"settings":
@@ -418,13 +422,131 @@
 					},
 					"stack_index": 3,
 					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/C/Users/aleja/Desktop/Fer/Cursos/Bootstrap.4.El.Curso.Completo.Practico.Desde.Cero/01 Introducción/attached_files/005 Descarga de recursos de todo el curso/Bootstrap/practicas/red_social/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8576,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5581,
+								5581
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Djaneiro/Syntaxes/HTML (Django).tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2269.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/static/css/index.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5333,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3468,
+								3468
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Djaneiro/Syntaxes/CSS (Django).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/C/Users/aleja/Desktop/Fer/Cursos/Bootstrap.4.El.Curso.Completo.Practico.Desde.Cero/01 Introducción/attached_files/005 Descarga de recursos de todo el curso/Bootstrap/practicas/red_social/css/estilos.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7132,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4963,
+								3099
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Djaneiro/Syntaxes/CSS (Django).tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2282.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "src/templates/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1003,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								936,
+								936
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Djaneiro/Syntaxes/HTML (Django).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
 				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 28.0
+		"height": 24.0
 	},
 	"input":
 	{
@@ -461,7 +583,7 @@
 	"project": "mini-bottes.sublime-project",
 	"replace":
 	{
-		"height": 52.0
+		"height": 44.0
 	},
 	"save_all_on_build": true,
 	"select_file":

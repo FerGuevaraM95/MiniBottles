@@ -1,57 +1,138 @@
 {% extends "base.html" %}
+{% load staticfiles %}
 
 {% block content %}
-<div class="container">
-  <div class="row justify-content-center">
-    <div class="col-7">
-      <p>
-        <a href="{% url "posts:create" %}" class="btn btn-lg btn-secondary">Add Bottle</a>
-      </p>
-      <!-- <h1 class="cover-heading">{{ title }}</h1> -->
-      <!--===========================
-      =            Cards            =
-      ============================-->
-      {% for obj in obj_list %}
-      <div class="card bg-dark card-left">
-        <div class="card-header">
-          {% if obj.user.get_full_name %}
-            <p>User: {{ obj.user.get_full_name }}</p>
-        {% else %}
-            <p class="mb-0">User: {{ obj.user }}</p>
-        {% endif %}
-        </div>
-        {% if obj.image %}
-        <img class='img-fluid' src='{{ obj.image.url }}' />
-        {% endif %}
-        <div class="card-body">
-          <h4 class="card-title">{{ obj.title }}</h4>
-          <p class="card-text">{{ obj.description }}</p>
-          <a href="{{ obj.get_absolute_url }}" class="btn btn-secondary">Ver</a>
-        </div>
-      </div>
-      {% endfor %}
-      <!--====  End of Cards  ====-->
-      
-      <!--================================
-      =            Pagination            =
-      =================================-->
-      <div class="pagination">
-        <span class="step-links">
-          {% if obj_list.has_previous %}
-            <a href="?{{ page_request_var }}={{ obj_list.previous_page_number }}{% if request.GET.q%}&q={{ request.GET.q }}{% endif %}">previous</a>
-          {% endif %}
-          <span class="current">
-            Page {{ obj_list.number }} of {{ obj_list.paginator.num_pages }}.
-          </span>
-          {% if obj_list.has_next %}
-            <a href="?{{ page_request_var }}={{ obj_list.next_page_number }}{% if request.GET.q%}&q={{ request.GET.q }}{% endif %}">next</a>
-          {% endif %}
-        </span>
-      </div>
-      <!--====  End of Pagination  ====-->
 
-    </div>
-  </div>
-</div>      
+        <!--==================================
+        =            Main Content            =
+        ===================================-->
+        
+        <div class="col main-content">
+
+          <!-- Form -->
+          <div class="publish">
+            <div class="row"></div>
+            <div class="row justify-content-center">
+              <div class="col-auto pick">
+                <a href="#">
+                  <img src="{% static 'images/user.png' %}" alt="">
+                </a>
+              </div>
+              <div class="col">
+                <form action="">
+                  <textarea name="message" id="" placeholder="Post Message"></textarea>
+                  <div class="buttons-content d-flex justify-content-between">
+                    <div class="media">
+                      <a href="#"><i class="icon-facebook-squared"></i></a>
+                      <a href="#"><i class="icon-instagram"></i></a>
+                      <a href="#"><i class="icon-twitter-squared"></i></a>
+                    </div>
+                    <div>
+                      <button>Post</button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+          <!-- End Form -->
+
+          <!-- Publication-->
+          {% for obj in obj_list %}
+          <div class="publication">
+            <div class="row">
+              <div class="col-auto pick">
+                <a href="#">
+                  <img src="{% static 'images/user.png' %}" alt="">
+                </a>
+              </div>
+
+              <div class="col">
+                <div class="post">
+                  {% if obj.user.get_full_name %}
+                    <a href="#" class="name">User: {{ obj.user.get_full_name }}</a>
+                  {% else %}
+                    <a href="#" class="name">User: {{ obj.user }}</a>
+                  {% endif %}
+
+                  {% if obj.image %}
+                  <div class="image">
+                    <img class='img-fluid' src='{{ obj.image.url }}' />
+                  </div>  
+                  {% endif %}
+                  <div class="">
+                    <h4 class="">{{ obj.title }}</h4>
+                    <p class="">{{ obj.description }}</p>
+                  </div>
+                  <div class="buttons-box d-flex justify-content-between align-items-center">
+                    <button><i class="icon-thumbs-up-alt"></i></button>
+                    <p>15 <i class="icon-thumbs-up-alt"></i></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Comments -->
+            <div class="row justify-content-end">
+              <div class="col-10">
+                <div class="commets">
+                  <div class="row comment no-gutters">
+                    <div class="col-auto pick">
+                      <a href="#">
+                        <img src="{% static 'images/user.png' %}" alt="">
+                      </a>
+                    </div>
+                    <div class="col">
+                      <form action="">
+                        <textarea name="" id="" placeholder="Comment"></textarea>
+                      </form>
+                    </div>
+                  </div>
+
+                  <!-- Comment -->
+                  <div class="row comment no-gutters ">
+                    <div class="col-auto pick">
+                      <a href="#">
+                        <img src="{% static 'images/user.png' %}" alt="">
+                      </a>
+                    </div>
+                    <div class="col">
+                      <p class="response">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo, eum.
+                      </p>
+                      <a href="#" class="like">Like</a>
+                    </div>
+                  </div>
+                  <!-- End Comment -->
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+          {% endfor %}
+
+          <!--====  End of Main Content  ====-->
+        
+          <!--================================
+          =            Pagination            =
+          =================================-->
+
+          <div class="pagination">
+            <span class="step-links">
+              {% if obj_list.has_previous %}
+                <a href="?{{ page_request_var }}={{ obj_list.previous_page_number }}{% if request.GET.q%}&q={{ request.GET.q }}{% endif %}">previous</a>
+              {% endif %}
+              <span class="current">
+                Page {{ obj_list.number }} of {{ obj_list.paginator.num_pages }}.
+              </span>
+              {% if obj_list.has_next %}
+                <a href="?{{ page_request_var }}={{ obj_list.next_page_number }}{% if request.GET.q%}&q={{ request.GET.q }}{% endif %}">next</a>
+              {% endif %}
+            </span>
+          </div>
+
+          <!--====  End of Pagination  ====-->
+        </div>
+        
 {% endblock %}
 

@@ -11,11 +11,15 @@
 .icon-cancel:before { content: '\e809'; } /* '' */
 .icon-home:before { content: '\e80a'; } /* '' */
 .icon-basket:before { content: '\e80b'; } /* '' */
+.icon-eye:before { content: '\e80c'; } /* '' */
 .icon-chat:before { content: '\e80d'; } /* '' */
 .icon-cog-alt:before { content: '\e80e'; } /* '' */
 .icon-zoom-in:before { content: '\e80f'; } /* '' */
 .icon-tag:before { content: '\e810'; } /* '' */
 .icon-upload:before { content: '\e811'; } /* '' */
+.icon-user:before { content: '\e812'; } /* '' */
+.icon-bell:before { content: '\e813'; } /* '' */
+.icon-th-large:before { content: '\e814'; } /* '' */
 .icon-money:before { content: '\f0d6'; } /* '' */
 .icon-bell-alt:before { content: '\f0f3'; } /* '' */
 .icon-plus-squared:before { content: '\f0fe'; } /* '' */
