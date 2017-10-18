@@ -1,0 +1,808 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"padding",
+				"padding-bottom"
+			],
+			[
+				"inli",
+				"inline-block"
+			],
+			[
+				"li",
+				"line-height"
+			],
+			[
+				"border-r",
+				"border-radius"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"De",
+				"DEBUG"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"qu",
+				"queryset"
+			],
+			[
+				"is_",
+				"is_superuser"
+			],
+			[
+				"requ",
+				"request"
+			],
+			[
+				"Post",
+				"PostManager"
+			],
+			[
+				"au",
+				"auto_now_add"
+			],
+			[
+				"se",
+				"settings"
+			],
+			[
+				"N",
+				"None"
+			],
+			[
+				"Static",
+				"STATIC_ROOT"
+			],
+			[
+				"HT",
+				"HttpResponseRedirect"
+			],
+			[
+				"re",
+				"request"
+			],
+			[
+				"ma",
+				"max_length"
+			],
+			[
+				"page",
+				"page-link"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"col",
+				"collapse"
+			],
+			[
+				"hidden",
+				"hidden-sm-up"
+			],
+			[
+				"list-group",
+				"list-group-item"
+			],
+			[
+				"na",
+				"navbar-toggleable"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"bor",
+				"border-color"
+			],
+			[
+				"list",
+				"list-group-item"
+			],
+			[
+				"padd",
+				"padding-left"
+			],
+			[
+				"co",
+				"content"
+			],
+			[
+				"border",
+				"border-top"
+			],
+			[
+				"nav-",
+				"navbar-toggler"
+			],
+			[
+				"form",
+				"form-text"
+			],
+			[
+				"text-",
+				"text-uppercase"
+			],
+			[
+				"hi",
+				"hidden-sm-down"
+			],
+			[
+				"of",
+				"offset-md-2"
+			],
+			[
+				"border-c",
+				"border-color"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"background-c",
+				"background-color"
+			],
+			[
+				"aut",
+				"auth_logout"
+			],
+			[
+				"st",
+				"style\tAttr"
+			],
+			[
+				"STATIC",
+				"STATIC_URL"
+			],
+			[
+				"email",
+				"email_from"
+			],
+			[
+				"com",
+				"com"
+			],
+			[
+				"EMA",
+				"EMAIL_HOST_PASSWORD"
+			],
+			[
+				"EMAIL_HOST",
+				"EMAIL_HOST_USER"
+			],
+			[
+				"lis",
+				"list_display"
+			],
+			[
+				"p",
+				"POST"
+			],
+			[
+				"d",
+				"django"
+			],
+			[
+				"__",
+				"__str__"
+			],
+			[
+				"pr",
+				"product_detail"
+			],
+			[
+				"he",
+				"height"
+			],
+			[
+				"STATI",
+				"staticfiles"
+			],
+			[
+				"H",
+				"HttpResponse"
+			],
+			[
+				"c",
+				"CharField"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"t",
+				"task"
+			],
+			[
+				"de",
+				"default"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"in",
+				"input\tTag"
+			],
+			[
+				"ge",
+				"get_object_or_404"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/templates/base.html",
+			"settings":
+			{
+				"buffer_size": 4686,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/static/css/index.css",
+			"settings":
+			{
+				"buffer_size": 5333,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 320.0,
+		"last_filter": "ins",
+		"selected_items":
+		[
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 484.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/Dell/Desktop/Fernando/MiniBottles",
+		"/C/Users/Dell/Desktop/Fernando/MiniBottles/src",
+		"/C/Users/Dell/Desktop/Fernando/MiniBottles/src/MiniBottles",
+		"/C/Users/Dell/Desktop/Fernando/MiniBottles/src/static",
+		"/C/Users/Dell/Desktop/Fernando/MiniBottles/src/static/css",
+		"/C/Users/Dell/Desktop/Fernando/MiniBottles/src/templates"
+	],
+	"file_history":
+	[
+		"/C/Users/Dell/Desktop/Fernando/MiniBottles/src/MiniBottles/settings.py",
+		"/C/Users/Dell/Desktop/DRF/src/tutorial/urls.py",
+		"/C/Users/Dell/Desktop/DRF/src/snippets/views.py",
+		"/C/Users/Dell/Desktop/DRF/src/snippets/serializers.py",
+		"/C/Users/Dell/Desktop/DRF/src/snippets/models.py",
+		"/C/Users/Dell/Desktop/DRF/src/tutorial/settings.py",
+		"/C/Users/Dell/Desktop/DRF/src/snippets/urls.py",
+		"/C/Users/Dell/Desktop/Fernando/curso_django_codigofacilito/refugio/settings.py",
+		"/C/Users/Dell/Desktop/Fernando/blog/src/posts/templatetags/urlify.py",
+		"/C/Users/Dell/Desktop/Fernando/blog/src/blog/urls.py",
+		"/C/Users/Dell/Desktop/Fernando/blog/src/blog/settings.py",
+		"/C/Users/Dell/Desktop/Fernando/blog/pip-selfcheck.json",
+		"/C/Users/Dell/Desktop/Fernando/blog/src/db.sqlite3",
+		"/C/Users/Dell/Desktop/Fernando/blog/src/blog/wsgi.py",
+		"/C/Users/Dell/Desktop/Fernando/blog/src/manage.py",
+		"/C/Users/Dell/Desktop/Fernando/MiniBottles/mini-bottes.sublime-project",
+		"/C/Users/Dell/Desktop/Fernando/sass_ninjacodetv/exercises/bordes.scss",
+		"/C/Users/Dell/Desktop/Fernando/sass_ninjacodetv/exercises/colores.scss",
+		"/C/Users/Dell/Desktop/Fernando/MiniBottles/src/posts/forms.py",
+		"/C/Users/Dell/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/Dell/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/Dell/Desktop/Seti.sublime-theme",
+		"/C/Users/Dell/Desktop/Seti.tmTheme.tm.xml",
+		"/C/Users/Dell/Desktop/Fernando/MiniBottles/src/posts/admin.py",
+		"/C/Users/Dell/Desktop/Fernando/MiniBottles/src/templates/post_detail.html",
+		"/C/Users/Dell/Desktop/Fernando/sass_ninjacodetv/mock-up/index.html",
+		"/C/Users/Dell/Desktop/variable.css",
+		"/C/Users/Dell/Desktop/variable.scss",
+		"/C/Users/Dell/Desktop/Fernando/sass_ninjacodetv/exercises/variable.css",
+		"/C/Users/Dell/Desktop/Fernando/sass_ninjacodetv/exercises/variable.scss",
+		"/C/Users/Dell/AppData/Roaming/Sublime Text 3/Packages/User/sass.sublime-build",
+		"/C/Users/Dell/Desktop/Fernando/sass_ninjacodetv/mock-up/css/ninjacodetv.css",
+		"/C/Users/Dell/Desktop/Fernando/sass_ninjacodetv/mock-up/css/crose_browser.css",
+		"/C/Users/Dell/Desktop/Fernando/sass_ninjacodetv/mock-up/css/bordes.css",
+		"/C/Users/Dell/Desktop/Fernando/sass_ninjacodetv/mock-up/scss/ninjacodetv.scss",
+		"/C/Users/Dell/Desktop/Fernando/sass_ninjacodetv/mock-up/scss/bordes.scss",
+		"/C/Users/Dell/Desktop/Fernando/sass_ninjacodetv/exercises/uso_bordes.css",
+		"/C/Users/Dell/Desktop/Fernando/sass_ninjacodetv/exercises/uso_bordes.scss",
+		"/C/Users/Dell/Desktop/Fernando/sass_ninjacodetv/exercises/colores.css",
+		"/C/Users/Dell/Desktop/Fernando/sass_ninjacodetv/exercises/operaciones.css",
+		"/C/Users/Dell/Desktop/Fernando/sass_ninjacodetv/exercises/operaciones.scss",
+		"/C/Users/Dell/Desktop/Fernando/sass_ninjacodetv/exercises/alcanceSelector.css",
+		"/C/Users/Dell/Desktop/Fernando/sass_ninjacodetv/exercises/alcanceSelector.scss",
+		"/C/Users/Dell/Desktop/Fernando/MiniBottles/src/templates/home.html",
+		"/C/Users/Dell/Desktop/Fernando/MiniBottles/src/templates/base.html",
+		"/C/Users/Dell/Desktop/Fernando/MiniBottles/src/posts/views.py",
+		"/C/Users/Dell/Desktop/Fernando/MiniBottles/src/posts/urls.py",
+		"/C/Users/aleja/Desktop/MiniBottles/src/templates/jumbotron.html",
+		"/C/Users/aleja/Desktop/MiniBottles/src/MiniBottles/settings.py",
+		"/C/Users/aleja/Desktop/MiniBottles/src/posts/forms.py",
+		"/C/Users/aleja/Desktop/MiniBottles/src/posts/models.py",
+		"/C/Users/aleja/Desktop/MiniBottles/src/MiniBottles/urls.py",
+		"/C/Users/aleja/Desktop/MiniBottles/src/templates/navbar.html",
+		"/C/Users/aleja/Desktop/MiniBottles/src/templates/base.html",
+		"/C/Users/aleja/Desktop/MiniBottles/src/posts/admin.py",
+		"/C/Users/aleja/Desktop/MiniBottles/src/templates/librerias.html",
+		"/C/Users/aleja/Desktop/Fer/sass/index.html",
+		"/C/Users/aleja/Desktop/Fer/sass/main.css",
+		"/C/Users/aleja/Desktop/Fer/sass/_body.sass",
+		"/C/Users/aleja/Desktop/Fer/sass/_variables.sass",
+		"/C/Users/aleja/Desktop/Fer/sass/main.sass",
+		"/C/Users/aleja/AppData/Roaming/Sublime Text 3/Packages/User/Sass.sublime-settings",
+		"/C/Users/aleja/AppData/Roaming/Sublime Text 3/Packages/User/Package Control.sublime-settings",
+		"/C/Users/aleja/Desktop/Fer/miblog/src/db.sqlite3",
+		"/C/Users/aleja/Desktop/Fer/miblog/src/miblog/urls.py",
+		"/C/Users/aleja/Desktop/Fer/miblog/src/posts/urls.py",
+		"/C/Users/aleja/Desktop/Fer/miblog/src/posts/tests.py",
+		"/C/Users/aleja/Desktop/Fer/miblog/src/posts/views.py",
+		"/C/Users/aleja/Desktop/Fer/miblog/src/templates/post_list.html",
+		"/C/Users/aleja/Desktop/Fer/miblog/src/templates/base.html",
+		"/C/Users/aleja/Desktop/Fer/miblog/src/posts/forms.py",
+		"/C/Users/aleja/Desktop/Fer/miblog/src/posts/models.py",
+		"/C/Users/aleja/Desktop/Fer/miblog/src/templates/post_detail.html",
+		"/C/Users/aleja/Desktop/Fer/miblog/src/posts/templatetags/urlify.py",
+		"/C/Users/aleja/Desktop/Fer/miblog/src/posts/templatetags/__init__.py",
+		"/C/Users/aleja/Desktop/Fer/miblog/src/templates/post_form.html",
+		"/C/Users/aleja/Desktop/Fer/miblog/src/miblog/settings.py",
+		"/C/Users/aleja/Desktop/Fer/miblog/src/static/base.css",
+		"/C/Users/aleja/Desktop/Fer/miblog/src/templates/messages_display.html",
+		"/C/Users/aleja/Desktop/Fer/miblog/src/templates/index.html",
+		"/C/Users/aleja/Desktop/Fer/miblog/src/posts/admin.py",
+		"/C/Users/aleja/Desktop/Fer/Bootstrap/MiniBottles/js/app.js",
+		"/C/Users/aleja/Desktop/Fer/Bootstrap/MiniBottles/css/app.css",
+		"/C/Users/aleja/Desktop/Fer/Bootstrap/MiniBottles/catalogo.html",
+		"/C/Users/aleja/Desktop/Fer/Bootstrap/MiniBottles/index.html",
+		"/C/Users/aleja/Desktop/Fer/Cursos/Curso de Frontend con Bootstrap y Foundation/3- Bootstrap/35- archivos/platzishop-caaa5675d0a6860748cc8b07fe738d60b199ef5e/js/app.js",
+		"/C/Users/aleja/Desktop/Fer/Cursos/Curso de Frontend con Bootstrap y Foundation/3- Bootstrap/32- archivos/platzishop-37d90b46516d13f1a737f7ea4c1ab3bffc31d487/js/app.js",
+		"/C/Users/aleja/Desktop/Fer/Bootstrap/platzishop/index.html",
+		"/C/Users/aleja/Desktop/Fer/new/src/boletin/views.py",
+		"/C/Users/aleja/Desktop/Fer/new/src/boletin/forms.py",
+		"/C/Users/aleja/Desktop/Fer/new/src/boletin/models.py",
+		"/C/Users/aleja/Desktop/Fer/new/src/boletin/admin.py",
+		"/C/Users/aleja/Desktop/Fer/new/src/proyecto_nuevo/views.py",
+		"/C/Users/aleja/Desktop/Fer/new/proyecto_nuevo.sublime-project",
+		"/C/Users/aleja/Desktop/Fer/Class-Based-Views/CRUD.txt",
+		"/C/Users/aleja/Desktop/Fer/new/src/templates/inicio.html",
+		"/C/Users/aleja/Desktop/Fer/new/src/templates/about.html",
+		"/C/Users/aleja/Desktop/Fer/new/src/templates/navbar.html",
+		"/C/Users/aleja/Desktop/Fer/new/src/static_pro/static/css/navbar-static-top.css",
+		"/C/Users/aleja/Desktop/Fer/new/src/templates/head_css.html",
+		"/C/Users/aleja/Desktop/Fer/new/src/templates/base.html",
+		"/C/Users/aleja/Desktop/Fer/new/static_env/static_root/css/navbar-static-top.css",
+		"/C/Users/aleja/Desktop/Fer/new/src/templates/forms.html",
+		"/C/Users/aleja/Desktop/Fer/new/src/templates/javascript.html",
+		"/C/Users/aleja/Desktop/Fer/new/src/proyecto_nuevo/settings.py",
+		"/C/Users/aleja/Desktop/Fer/new/src/templates/registration/activation_email.txt",
+		"/C/Users/aleja/Desktop/Fer/new/src/templates/registration/activation_complete.html",
+		"/C/Users/aleja/Desktop/Fer/new/src/static_pro/static/css/custom.css",
+		"/C/Users/aleja/Desktop/Fer/new/src/templates/registration/registration_form.html",
+		"/C/Users/aleja/Desktop/Fer/new/src/proyecto_nuevo/urls.py",
+		"/C/Users/aleja/Desktop/Fer/new/src/templates/registration/registration_complete.html",
+		"/C/Users/aleja/Desktop/Fer/new/src/templates/registration/registration_closed.html",
+		"/C/Users/aleja/Desktop/Fer/new/src/templates/registration/password_reset_form.html",
+		"/C/Users/aleja/Desktop/Fer/new/src/templates/registration/password_reset_email.html",
+		"/C/Users/aleja/Desktop/Fer/new/src/templates/registration/password_reset_done.html",
+		"/C/Users/aleja/Desktop/Fer/new/src/templates/registration/password_reset_confirm.html",
+		"/C/Users/aleja/Desktop/Fer/new/src/templates/registration/password_reset_complete.html",
+		"/C/Users/aleja/Desktop/Fer/new/src/templates/registration/password_change_form.html",
+		"/C/Users/aleja/Desktop/Fer/new/src/templates/registration/password_change_done.html",
+		"/C/Users/aleja/Desktop/Fer/new/src/templates/registration/logout.html",
+		"/C/Users/aleja/Desktop/Fer/new/src/templates/registration/login.html",
+		"/C/Users/aleja/Desktop/Fer/new/src/templates/registration/activation_email_subject.txt",
+		"/C/Users/aleja/Desktop/Fer/new/src/templates/registration/activate.html",
+		"/C/Users/aleja/Desktop/Fer/django_platzi/puls5/shopy/Shoppy/templates/index.html",
+		"/C/Users/aleja/AppData/Roaming/Sublime Text 3/Packages/User/HTML (Django).sublime-settings",
+		"/C/Users/aleja/AppData/Roaming/Sublime Text 3/Packages/Djaneiro/Settings/HTML (Django).sublime-settings",
+		"/C/Users/aleja/Desktop/Fer/python_platzi/carta.py",
+		"/C/Users/aleja/Desktop/Fer/django_platzi/puls5/shopy/Shoppy/Shoppy/carta.py"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 134.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/templates/base.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4686,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										14,
+										15
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/angle_bracket.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										0,
+										1
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 675.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/static/css/index.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5333,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"syntax": "Packages/Djaneiro/Syntaxes/CSS (Django).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 47.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/SASS Build/SASS.sublime-build",
+	"project": "mini-bottles.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 265.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

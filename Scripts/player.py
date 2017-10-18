@@ -1,4 +1,4 @@
-#!c:\users\aleja\desktop\minibottles\scripts\python.exe
+#!c:\users\dell\desktop\fernando\minibottles\scripts\python.exe
 #
 # The Python Imaging Library
 # $Id$
@@ -22,13 +22,10 @@ from PIL import Image, ImageTk
 class UI(tkinter.Label):
 
     def __init__(self, master, im):
-        if isinstance(im, list):
+        self.im = im
+        if isinstance(self.im, list):
             # list of images
-            self.im = im[1:]
-            im = self.im[0]
-        else:
-            # sequence
-            self.im = im
+            im = self.im.pop(0)
 
         if im.mode == "1":
             self.image = ImageTk.BitmapImage(im, foreground="white")
