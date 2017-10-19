@@ -378,3 +378,36 @@ main footer .copyright {
       text-decoration: none;
     }  
 }
+
+main .right-sidebar {
+  width: 85%;
+  position: fixed;
+  background-color: rgba(0,0,0,.85);
+  z-index: 100;
+  top: 0;
+  left: 0;
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  transform: translateX(-100%);
+  transition: all .3s ease;
+  overflow: scroll;
+}
+
+main .right-sidebar.active {
+  transform: translateX(0%);
+}
+
+main .right-sidebar nav {
+  border-bottom: none;
+}
+
+main .right-sidebar nav a {
+  padding: 20px;
+  color:fff;
+}
+
+main .right-sidebar nav a:hover {
+  color: #3d3c3c;
+  background-color: #fff;
+}
