@@ -358,56 +358,94 @@ main footer .copyright {
   margin-top: 10px;
 }
 
-/* --- right-sidebar --- */
+/* --- --- MEDIAQUERIES --- --- */
 @media screen and (max-width: 767px) {
-    main .btn-menu {
-      display: block;
-      border: 1px solid #00609c;
-      padding: 5px 10px;
-      font-size: 14px;
-      background: linear-gradient(to bottom, #1a87cd 0%, #1176b6 100%);
-      color: #fff;
-      border-radius: 3px;
-      cursor: pointer;
-      margin-bottom: 20px;
-      text-align: center;
-    }
+  main .btn-menu {
+    display: block;
+    border: 1px solid #00609c;
+    padding: 5px 10px;
+    font-size: 14px;
+    background: linear-gradient(to bottom, #1a87cd 0%, #1176b6 100%);
+    color: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    text-align: center;
+  }
 
-    main .btn-menu:hover {
-      background: #0d659d;
-      text-decoration: none;
-    }  
+  main .btn-menu:hover {
+    background: #0d659d;
+    text-decoration: none;
+  }
+
+  main .background-link {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+    background: rgba(0,0,0,.5);
+    z-index:99;
+    display: none;
+  }
+
+  main .background-link.active {
+    display: block;
+  }
+
+  main .left-sidebar {
+    width: 85%;
+    position: fixed;
+    background: rgba(0,0,0,.85);
+    z-index: 100;
+    top: 0;
+    left: 0;
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    transform: translateX(-100%);
+    transition: all .3s ease;
+    overflow: scroll;
+  }
+
+  main .left-sidebar.active {
+    transform: translateX(0%);
+  }
+
+  main .left-sidebar nav {
+    border-bottom: none;
+  }
+
+  main .left-sidebar nav a {
+    padding: 20px;
+    color: #fff;
+  }
+
+  main .left-sidebar nav a:hover {
+    color: #3d3c3c;
+    background: #fff;
+  }
+
+@media screen and (max-width: 575px) {
+  header .menu {
+    padding: 0 15px 15px 15px;
+  }
+
+  main .main-content .publication .pick a {
+    width: 40px;
+    height: 40px;
+    margin:0;
+  }
+
+  main .publication .pick a {
+    width: 40px;
+    height: 40px;
+  }
 }
 
-main .right-sidebar {
-  width: 85%;
-  position: fixed;
-  background-color: rgba(0,0,0,.85);
-  z-index: 100;
-  top: 0;
-  left: 0;
-  padding: 0;
-  margin: 0;
-  height: 100vh;
-  transform: translateX(-100%);
-  transition: all .3s ease;
-  overflow: scroll;
-}
-
-main .right-sidebar.active {
-  transform: translateX(0%);
-}
-
-main .right-sidebar nav {
-  border-bottom: none;
-}
-
-main .right-sidebar nav a {
-  padding: 20px;
-  color:fff;
-}
-
-main .right-sidebar nav a:hover {
-  color: #3d3c3c;
-  background-color: #fff;
+@media screen and (max-width: 320px) {
+  main .main-content .publish .pick {
+    display: none;
+  }
 }

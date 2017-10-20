@@ -1,4 +1,4 @@
-#!c:\users\dell\desktop\fernando\minibottles\scripts\python.exe
+#!c:\users\aleja\desktop\minibottles\scripts\python.exe
 #
 # The Python Imaging Library
 # $Id$
