@@ -5,7 +5,7 @@ body {
 }
 
 a {
-  color: #1176b6;
+  color: #2B2E4A;
 }
 
 a:hover {
@@ -14,7 +14,7 @@ a:hover {
 
 /* HEADER */
 header {
-  background: #1176b6;
+  background: #2B2E4A;
   padding: 10px 0;
 }
 
@@ -61,7 +61,7 @@ header .search form button {
 }
 
 header .search form button:hover {
-  background: #099efc;
+  background: #E84545;
   color:fff;
 }
 
@@ -165,17 +165,33 @@ main .main-content .publish .pick img {
   width: 100%;
 }
 
+.label-box {
+  background: #2B2E4A;
+  color: #FFF;
+  border-radius: 10px 10px 10px 10px;
+  padding-top: 10px;
+}
+
+main .main-content .publish form input {
+  width: 100%;
+  border: 3px;
+  color: #565656;
+  font-size: 12px;
+  padding: 3px;
+  font-size: 16px;
+}
+
 main .main-content .publish form textarea {
   width: 100%;
   max-width: 100%;
-  min-height: 100px;
-  max-height: 300px;
+  min-height: 55px;
+  max-height: 110px;
   border: none;
-  padding: 15px;
+  padding: 3px;
   font-size: 16px;
   font-family: 'Open Sans', sans-serif;
-  color: #565656;
-  box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.35)
+  /*color: #565656;
+  box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.35)*/
 }
 
 main .main-content .publish form .buttons-content {
@@ -184,28 +200,28 @@ main .main-content .publish form .buttons-content {
 }
 
 main .main-content .publish form .buttons-content a {
-  color: #8d8d8d;
+  color: #E84545;
   font-size: 20px;
   margin-right: 10px;
 }
 
 main .main-content .publish form .buttons-content a:hover {
-  color: #3d3c3c;
+  color: #903749;
 }
 
 main .main-content .publish form button {
-  border: 1px solid #00609c;
+  border: 1px solid #53354A;
   padding: 5px 30px;
   font-size: 14px;
   font-family: 'Roboto', sans-serif;
-  background: linear-gradient(to bottom, #1a87cd 0%, #1176b6 100%);
+  background: linear-gradient(to bottom, #E84545 0%, #903749 100%);
   color: #fff;
   border-radius: 3px;
   cursor: pointer;
 }
 
 main .main-content .publish form button:hover {
-  background: linear-gradient(to bottom, #1176b6 0%, #1a87cd 100%);
+  background: linear-gradient(to bottom, #903749 0%, #E84545 100%);
 }
 
 /* --- publications--- */
@@ -261,7 +277,7 @@ main .publication .buttons-box {
 }
 
 main .publication .post .buttons-box button {
-  background: #1176b6;
+  background: #903749;
   color: #fff;
   cursor: pointer;
   padding: 10px 20px;
@@ -273,12 +289,12 @@ main .publication .post .buttons-box button {
 }
 
 main .publication .post .buttons-box button:hover {
-  background: #0d659d;
+  background: #53354A;
 }
 
 main .publication .post .buttons-box p {
   margin-bottom: 0;
-  color: #1782c6;
+  color: #53354A;
 }
 
 /* --- comments --- */
@@ -342,18 +358,18 @@ main .right-sidebar .ads a img {
 }
 
 /* --- right-sidebar --- */
-main  footer {
+main .right-sidebar footer {
   font-size: 14px;
   font-family: 'Roboto', sans-serif;
 }
 
-main  footer a {
-  color: #1176b6;
+main .right-sidebar footer a {
+  color: #E84545;
   line-height: 14px;
   margin-right: 10px;
 }
 
-main footer .copyright {
+main .right-sidebar footer .copyright {
   color: #919191;
   margin-top: 10px;
 }
@@ -362,10 +378,10 @@ main footer .copyright {
 @media screen and (max-width: 767px) {
   main .btn-menu {
     display: block;
-    border: 1px solid #00609c;
+    border: 1px solid #53354A;
     padding: 5px 10px;
     font-size: 14px;
-    background: linear-gradient(to bottom, #1a87cd 0%, #1176b6 100%);
+    background: linear-gradient(to bottom, #903749 0%, #53354A 100%);
     color: #fff;
     border-radius: 3px;
     cursor: pointer;
@@ -374,7 +390,7 @@ main footer .copyright {
   }
 
   main .btn-menu:hover {
-    background: #0d659d;
+    background: #E84545;
     text-decoration: none;
   }
 

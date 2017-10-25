@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     # third part apps
     'crispy_forms',
     # my apps
+    'comments',
     'posts',
     'users',
 ]

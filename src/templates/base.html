@@ -70,6 +70,7 @@
         =            Left sidebar            =
         ===================================-->
 
+        {% block left-sidebar %}
         <div class="col-12 col-md-3 left-sidebar" id="left-sidebar">
           <nav>
             <a href="#"><i class="icon-home"></i> All bottles</a>
@@ -82,50 +83,25 @@
         </div>
 
         <a href="#" class="background-link d-md-none" id="background-link"></a>
-
-        <div class="col main-content">
-          <div class="publish">
-            <div class="row">
-              <div class="col">
-                <a href="#" class="btn-menu d-flex d-md-none justify-content-between" id="btn-menu">
-                  <span>Menu</span>
-                  <i class="icon-home"></i>
-                </a>
-              </div>
-            </div>
-            <div class="row justify-content-center">
-              <div class="col-auto pick">
-                <a href="#">
-                  <img src="{% static 'images/user.png' %}" alt="">
-                </a>
-              </div>
-              <div class="col">
-                <form action="">
-                  <textarea name="message" id="" placeholder="Post Message"></textarea>
-                  <div class="buttons-content d-flex justify-content-between">
-                    <div class="media">
-                      <a href="#"><i class="icon-facebook-squared"></i></a>
-                      <a href="#"><i class="icon-instagram"></i></a>
-                      <a href="#"><i class="icon-twitter-squared"></i></a>
-                    </div>
-                    <div>
-                      <button>Post</button>
-                    </div>
-                  </div>
-                </form>
-              </div>
-            </div>
-          </div>
+        {% endblock left-sidebar %}
 
         <!--====  End of Left sidebar  ====-->
-
+        
+        <!--==================================
+        =            Main content            =
+        ===================================-->
+        
         {% block content %}
         {% endblock %}
+
+        <!--====  End of Main content  ====-->
+        
 
         <!--==================================
         =            Right sidebar            =
         ===================================-->
-            
+
+        {% block right-sidebar %}    
         <div class="col-3 right-sidebar d-none d-lg-block">
           <h3>Advertising</h3>
           <div class="ads">
@@ -140,6 +116,7 @@
             <p class="copyright">MiniBottles © 2017</p>
           </footer>
         </div>
+        {% endblock right-sidebar %}
 
         <!--====  End of Right sidebar  ====-->
         

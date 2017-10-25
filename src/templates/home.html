@@ -3,19 +3,96 @@
 
 {% block content %}
 
-        <!--==================================
-        =            Main Content            =
-        ===================================-->
+         
+          <!--=====================================
+          =            Box-publication            =
+          ======================================-->
+        <div class="col-md-9 col-lg-6 main-content">  
+          <div class="publish">
+            <div class="row">
+              <div class="col">
+                <a href="#" class="btn-menu d-flex d-md-none justify-content-between" id="btn-menu">
+                  <span>Menu</span>
+                  <i class="icon-home"></i>
+                </a>
+              </div>
+            </div>
+            <div class="row justify-content-center">
+              <div class="col-auto pick">
+                <a href="#">
+                  <img src="{% static 'images/user.png' %}" alt="">
+                </a>
+              </div>
+              <div class="col label-box">
+                <form method="POST" action="" enctype='multipart/form-data'>
+                  {% csrf_token %}
+                  <div class="row no-gutters">
+                    <div class="col-3 label-box">
+                      <label>Name:</label>
+                    </div>
+                    <div class="col">
+                      <input type="text" placeholder="Bottle name">
+                    </div>
+                  </div>
+                  <div class="row no-gutters">
+                    <div class="col-3">
+                      <label>Category:</label>
+                    </div>
+                    <div class="col">
+                      <input type="text" placeholder="kind of drink">
+                    </div>
+                  </div>
+                  <div class="row no-gutters">
+                    <div class="col-3">
+                      <label>Origin:</label>
+                    </div>
+                    <div class="col">
+                      <input type="text" placeholder="Where is the bottle from?">
+                    </div>
+                  </div>
+                  <div class="row no-gutters">
+                    <div class="col-3">
+                      <label>mL:</label>
+                    </div>
+                    <div class="col">
+                      <input type="text" placeholder="Milliliters volume">
+                    </div>
+                  </div>
+                  <div class="row no-gutters">
+                    <div class="col-3">
+                      <label>Description:</label>
+                    </div>
+                    <div class="col">
+                      <textarea name="message" id="" placeholder="Description"></textarea><br>
+                    </div>
+                  </div> 
+                  
+                  <div class="buttons-content d-flex justify-content-between">
+                    <div class="media">
+                      <a href="#"><i class="icon-facebook-squared"></i></a>
+                      <a href="#"><i class="icon-instagram"></i></a>
+                      <a href="#"><i class="icon-twitter-squared"></i></a>
+                    </div>
+                    <div>
+                      <button type='submit'>Add Bottle</button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+          
+          <!--====  End of Box-publication  ====-->
+          
 
-          <!-- Form -->
+          <!--==================================
+          =            Main Content            =
+          ===================================-->
 
-          <!-- End Form -->
-
-          <!-- Publication-->
           {% for obj in obj_list %}
           <div class="publication">
             <div class="row">
-              <div class="col-auto pick">
+              <div class="col-auto pick d-none d-md-block">
                 <a href="#">
                   <img src="{% static 'images/user.png' %}" alt="">
                 </a>
@@ -36,15 +113,32 @@
                   {% endif %}
                   <div class="">
                     <h4 class="">{{ obj.title }}</h4>
+                    <p class="">{{ obj.category }}</p>
+                    <p class="">{{ obj.origin }}</p>
+                    <p class="">{{ obj.ml }}</p>
                     <p class="">{{ obj.description }}</p>
                   </div>
                   <div class="buttons-box d-flex justify-content-between align-items-center">
-                    <button><i class="icon-thumbs-up-alt"></i></button>
-                    <p>15 <i class="icon-thumbs-up-alt"></i></p>
+                    <button><i class="icon-glass"></i></button>
+                    <p>15 <i class="icon-glass"></i></p>
                   </div>
                 </div>
               </div>
             </div>
+
+
+            <div>
+              <p class="lead">Comentarios</p>
+              {% for comment in comments %}
+                <div>
+                  {{ comment.content }}
+                  <br/>
+                  <small>por {{ comment.user }} | hace {{ comment.timestamp|timesince }}</small>
+                  <hr/>
+                </div>
+              {% endfor %}
+            </div>
+
 
             <!-- Comments Form -->
             <div class="row justify-content-end">

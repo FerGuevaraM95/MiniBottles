@@ -5,14 +5,16 @@
 {% endblock %}
 {% block navbar %}
 {% endblock %}
+{% block left-sidebar %}
+{% endblock left-sidebar %}
 {% block content %}
 
 <div class="container">
   <div class="row justify-content-center">
     <div class="col-4">
-      <form method="post" class="form-signin">
+      <form method="post" class="">
       {% csrf_token %}
-        <h2 class="form-signin-heading">Please sign in</h2>
+        <h2 class="">Please sign in</h2>
         <label for="username" class="sr-only">Username</label>
         <input type="text" class="form-control" placeholder="Username" name="username" required autofocus>
         <label for="password" class="sr-only">Password</label>
@@ -24,5 +26,7 @@
     </div>
   </div>
 </div>
+{% block right-sidebar %}
+{% endblock right-sidebar %}
     
 {% endblock %}
